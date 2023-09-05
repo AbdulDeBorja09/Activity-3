@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>De Borja | Activity 3</title>
+    <style>
+        /* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+        *{
+            font-family: 'Poppins', sans-serif; */
+        
+      .title {
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h3>National University - Laguna</h3>
+      <h3>INMEDIA - Interactive Media Design</h3>
+    </center>
+    <center>
+      <div>
+        <form action="actionitems.php">
+          <table>
+            <tr>
+              <td class="title"><b>General Information</b></td>
+            </tr>
+            <tr>
+              <td><label for="name">Full Name / Nick</label></td>
+              <td><input type="text" name="name" placeholder="Ex. Juan dela cruz" required/></td>
+            </tr>
+            <tr>
+              <td><label for="password">Password</label></td>
+              <td><input type="password" name="password"  placeholder="***********" required/></td>
+            </tr>
+            <tr>
+              <td><label for="cpassword" >Confirm Password </label></td>
+              <td><input type="password" name="cpassword" placeholder="***********" required/></td>
+            </tr>
+            <tr>
+              <td><label for="date">Date Of Birth</label></td>
+              <td><input type="date" name="date" /></td>
+            </tr>
+            <tr>
+              <td><label for="color">Interface color</label></td>
+              <td><input type="color" name="color" /></td>
+            </tr>
+
+            <tr>
+              <td class="title"><b>More Options</b></td>
+            </tr>
+            <tr>
+              <td >Please slect</td>
+              <td>
+                <select name="region">
+                  <option value="asia">Asia</option>
+                  <option value="eurp">Europe</option>
+                  <option value="africa">Africa</option>
+                  <option value="namerica">North America</option>
+                  <option value="samerica">South America</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td ><label for="region">Please select region</label></td>
+              <td>
+                <select name="lang">
+                  <option value="eng">English</option>
+                  <option value="dtch">Dutch</option>
+                  <option value="tag">Tagalog</option>
+                  <option value="spn">Spanish</option>
+                  <option value="frnch">French</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td class="title"><b>Messaging</b></td>
+            </tr>
+            <tr>
+              <td><label for="pm">Private messsages</label></td>
+              <td><input type="checkbox" name="pm" /></td>
+            </tr>
+            <tr>
+              <td><label for="notif">Email notification</label></td>
+              <td><input type="checkbox" /></td>
+            </tr>
+            <tr>
+              <td class="title"><b>Online Status</b></td>
+            </tr>
+            <tr>
+              <td><label for="online">Show when online</label></td>
+              <td><input type="radio" name="online" /></td>
+            </tr>
+            <tr>
+              <td><label for="hidden">Always hidden</label></td>
+              <td><input type="radio" name="hidden" /></td>
+            </tr>
+            <tr>
+              <td class="title"><b>Advanced Items</b></td>
+            </tr>
+            <tr>
+              <td>
+                <label for="skill">Skill level</label>
+              </td>
+              <td>
+                <select name="skill">
+                  <option value="admin">Admin</option>
+                  <option value="puser">Power User</option>
+                  <option value="user">User</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="highlight">highlight current line</label><br />
+              </td>
+              <td><input type="checkbox" class="" id="" /></td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <textarea name="" id="" cols="50" rows="10" placeholder="Any ideas to write here?"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td colspan="2">
+                <input type="submit" name="" id="" />
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </center>
+  </body>
+</html>
